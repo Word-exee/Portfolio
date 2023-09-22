@@ -1,0 +1,209 @@
+body{
+    background-color: #0f051e;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    text-align: center;
+}
+a{
+    color: inherit;
+    text-decoration: none ;
+    color: aliceblue;
+    
+}
+
+.Navbar{
+    position: fixed;
+    top: 0px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: rgba(15, 5, 30, 0.9);
+    
+   z-index: 1;
+  
+}
+.empty{
+    height: 120px;
+    width: 100%;
+}
+.section {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio{
+    height: 60px;
+    width: 200px;
+    background: linear-gradient(to left, #4200fc , #f901fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.home{
+    height: 40px;
+    width: 150px;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-bottom:3px solid transparent;
+    border-radius:10%;
+    transition: all 1s ease-out;
+}
+.home:hover{
+    font-size: 1.4rem;
+    border-bottom: #f901fc 3px solid;
+    -webkit-transition: all 1s ease;
+    transition: all 0.5s ease;
+}
+.sidebar{
+    width: 80px;
+    height:300px;
+ 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 200px;
+    right:0px;
+    z-index: 1;
+}
+.social{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social i{
+    font-size: 2rem;
+    transition: all 1s ease-out;
+}
+.social i:hover{
+    font-size: 1.4rem;
+    -webkit-transition: all 1s ease;
+    transition: all 0.5s ease;
+}
+.content{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    width: 500px;
+}
+.name{
+    height: 100px;
+    width: inherit;
+    color: white;
+    font-size: 5rem;
+    font-weight: BOLD;
+}
+.prof{
+    width: inherit;
+    height: 80px;
+    font-size: 3rem;
+    background: linear-gradient(to left, #4200fc , #f901fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro{
+    width: inherit;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.photo{
+    height: 400px;
+    width: 400px;
+    background-image: url("photo.png");
+    background-size: cover;
+    border: 5px solid  #f901fc;
+    border-radius: 5%;
+    margin-left:100px;
+    transition: all 1s ease-out;
+
+}
+.photo:hover{
+    transform:translate(20px);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.download{ 
+    background-color:#0f051e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #4200fc , #f901fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    height: inherit;
+    width: 300px;
+    border-radius: 25px;
+    border: #f901fc 2px solid;
+    height: 70px;
+    font-size: 1.8rem;
+    margin: 10px;
+    transition: all 1s ease-out;
+}
+.button:hover{
+    font-size: 2rem;
+    border-bottom: #f901fc 8px solid;
+    -webkit-transition: all 1s ease;
+    transition: all 0.5s ease;
+}
+
+
+.foot{
+    height: 110px;
+    background-color: #1a053b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.a{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+}
+.b{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+.copyright{
+    background-color: #1a053b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgb(104, 97, 97);
+}
